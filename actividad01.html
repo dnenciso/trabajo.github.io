@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Actividad 01</title>
+        <link rel="stylesheet" href=".\css\actividad01.css" />
+
+    </head>
+
+    <body>
+
+        <section class="header">
+        <h1>Helados y mas Helados</h1>
+        <p class="pheader"> Vendemos los mejores helados para toda la familia con los mejores precios</p>
+        <p class="pheader">Te invitamos a que nos visites y conoscas nuestras mejores promosiones </p>
+        <ul>
+            <li>Helados a la Plancha</li>
+            <li>Conos de 2 y 3 Sabores</li>
+            <li>Malteadas </li>
+            <li>Canasta de 4 Sabores</li>
+            <li>Ensalada de Frutas</li>
+        </ul>
+        </section>
+
+        <section class="">
+          <table>
+            <tr class="head">
+                <th>Promosiones</th>
+                <th>Lunes a Viernes</th>
+                <th>Sabado</th>
+                <th>Domingo</th>
+            </tr>
+            <tr> 
+                <th>Helados a la Plancha</th>
+                <th>$5.000</th>
+                <th>$7.000</th>
+                <th>$8.500</th>
+            </tr>
+            
+            <tr> 
+                <th>Conos de 2 y 3 Sabores</th>
+                <th>$3.000</th>
+                <th>$4.000</th>
+                <th>$4.500</th>
+            </tr>
+
+            <tr> 
+                <th>Malteadas</th>
+                <th>$9.000</th>
+                <th>$10.000</th>
+                <th>$11.500</th>
+            </tr>
+
+            <tr> 
+                <th>Canasta de 4 Sabores</th>
+                <th>$5.000</th>
+                <th>$6.000</th>
+                <th>$7.500</th>
+            </tr>
+
+            <tr> 
+                <th>CEnsalada de Frutas</th>
+                <th>$12.000</th>
+                <th>$13.000</th>
+                <th>$14.500</th>
+            </tr>
+
+          </table>
+        </section>
+
+        <section>
+             <form action="actividad02.html" method="GET">
+                 <fieldset>
+                     <legend>Registrese para realizar su pedido de nuestras promosiones</legend>
+                     <p> <label class="title" for="name"> Su Nombre </label>
+                         <input type="text" name="name" id="name"> <br/>
+                         <label class="title" for="email"> Email </label>
+                         <input type="text" name="email" id="email"></p>
+
+                     <p> <label for="promosion" class="title">Promosion de Interes</label> 
+                            <select name="promosion" id="promosion">
+                                <option value="hp">Helados a la Plancha</option>
+                                <option value="co">Cono de 2 y 3 Sabores</option>
+                                <option value="ma">Malteadas</option>
+                                <option value="ca">Canasta de 4 Sabores</option>
+                                <option value="ef">Ensalada de Frutas</option>
+                            </select></p>    
+                     <p> <label for="fecha" class="title">Su Fecha del Pedido</label> 
+                         <select name="fecha" id="fecha">
+                             <option value="lav">Lunes a Viernes</option>
+                             <option value="sa">Sabado</option>
+                             <option value="do">Domingo</option>
+                         </select></p>    
+                      <span class="title">Ya eres Cliente</span>
+                      <label><input type="radio" name="member" value="si"/> SI </label> 
+                      <label><input type="radio" name="member" value="no"/> NO </label>  
+                 </fieldset>
+
+               <div class="submit"> <input type="submit" value="Registro" /></div>
+
+             </form>
+        </section>
+
+    </body>
+
+
+
+
+</html>
